@@ -1273,3 +1273,18 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+.portfolio-item.filter-books img {
+  width: 100%;
+  height: 250px;
+  /* tinggi seragam, bisa diganti misalnya 220px / 300px */
+  object-fit: cover;
+  /* biar proporsional, tidak gepeng */
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item.filter-books:hover img {
+  transform: scale(1.05);
+  /* efek zoom saat hover */
+}
